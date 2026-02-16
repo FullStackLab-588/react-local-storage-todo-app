@@ -1,81 +1,34 @@
-# React Auth + Live Preview + Todo
+# React Todo App
 
-## Description
-This project is a **React authentication system** with advanced features:
+A modern, interactive **Todo List application** built with **React.js**. This app allows users to efficiently manage daily tasks, featuring **task addition**, **deletion**, **mark as completed**, **clear all**, and **localStorage persistence**.  
 
-- Signup form with live preview
-- Password show/hide with eye icon
-- Form validation (required fields, password match)
-- Terms & Privacy clickable modal
-- Login form with email/password check
-- Todo list displayed **after successful login**
-- Mobile responsive and styled with black-blue theme
-
-This project is ideal for learning **React forms, state management, and conditional rendering**.
-Check it out live: https://react-signup-login-jhangir.netlify.app
+Check out the **live demo** here: [React Todo App Live](https://jhangir-react-todo.netlify.app/)
 
 ---
 
-## Features
+## **Features**
 
-1. **Signup Form**
-   - First Name, Last Name, Email, Phone, Password, Confirm Password
-   - Checkbox for Terms & Privacy
-   - Live preview of entered data
-   - Password toggle (eye icon)
+- ✅ **Add Tasks**  
+  - Users can add new tasks with unique content.  
+  - Empty or duplicate tasks are ignored.  
+  - Tasks persist in localStorage.
 
-2. **Login Form**
-   - Email & Password validation
-   - Checks against stored signup users
-   - Displays Todo list on successful login
-   - Logout button with matching style
+- ✅ **Delete Tasks**  
+  - Remove individual tasks using the delete icon.
 
-3. **Terms & Privacy**
-   - Clickable Terms & Privacy
-   - Modal popup with information
-   - Fully reusable component
+- ✅ **Complete Tasks**  
+  - Click a task to toggle **line-through** and mark as completed.  
+  - Completed tasks are visually distinct.
 
-4. **Todo List**
-   - Add, Delete, Complete tasks
-   - Mobile friendly layout
-   - Styled buttons consistent with auth system
+- ✅ **Clear All Tasks**  
+  - Remove all tasks at once using the **Clear All** button.
 
----
+- ✅ **Date & Time Display**  
+  - Shows the current date and time above the task list.
 
-## Folder Structure
+- ✅ **Persistent Storage**  
+  - Tasks are saved in localStorage, so they remain even after closing the browser.
 
-reactthapaapp/
-│
-├─ public/
-│   ├─ images/             # any images you use
-│   └─ vite.svg
-│
-├─ src/
-│   ├─ api/                # optional API calls if needed
-│   ├─ assets/             # static assets like icons, logos
-│   ├─ components/
-│   │   ├─ projects/
-│   │   │   └─ RegistrationForm/
-│   │   │       ├─ RegistrationForm.jsx
-│   │   │       ├─ LoginForm.jsx
-│   │   │       └─ TermsAndPrivacy.jsx
-│   │   │
-│   │   ├─ todo/
-│   │   │   ├─ Todo.jsx
-│   │   │   ├─ TodoForm.jsx
-│   │   │   ├─ TodoList.jsx
-│   │   │   ├─ TodoDateTime.jsx
-│   │   │   ├─ TodoFooter.jsx
-│   │   │   ├─ TodoLocalStorage.jsx
-│   │   │   └─ Todo.css
-│   │   │
-│   │   └─ ToggleSwitch/
-│   │       └─ ToggleSwitch.jsx
-│   │
-│   ├─ App.jsx
-│   └─ main.jsx
-│
-├─ package.json
-├─ vite.config.js
-└─ README.md <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/f3d26557-ab18-4689-bdf7-adb31ddbcfdb" />
-
+- ✅ **Responsive Design**  
+  - Works on desktop and mobile devices.  
+  - Minimal and clean UI for smooth user experience.
